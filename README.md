@@ -27,30 +27,20 @@ The following steps will walk you through the process:
 
       git clone https://github.com/sree-warrier/djnago-ha.git
 
-2. This will be the file structure.
-
-      django-ha $  ll
-      drwxr-xr-x  12 sreekanth  sreekanth   408 Aug  3 15:41 .git
-      -rw-r--r--   1 sreekanth  sreekanth   674 Aug  3 16:53 README.md
-      -rw-r--r--@  1 sreekanth  sreekanth  1170 Aug  3 13:06 docker-compose.yml
-      -rw-r--r--@  1 sreekanth  sreekanth   230 Aug  3 13:08 env_local_dev.sh
-      drwxr-xr-x@  9 sreekanth  sreekanth   306 Aug  3 13:50 infra-tf
-      drwxr-xr-x@  9 sreekanth  sreekanth   306 Aug  3 15:41 src
-
-3. Following should be created before terraform file execution
+2. Following should be created before terraform file execution
 
     - Create a keypair
     - Use the AMI having docker and docker-compose running
     - Configure aws credentials (Make sure user should have all access to the aws services)
 
-4. infra-tf directory conatins the terraform file for infra setup, use the following steps
+3. infra-tf directory conatins the terraform file for infra setup, use the following steps
 
       cd infra-tf
       terraform init
       terraform plan
       terraform apply
 
-5. Login to the cluster instance using the keys.
+4. Login to the cluster instance using the keys.
 
 5. Create docker-compose.yml file
 
