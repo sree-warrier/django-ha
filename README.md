@@ -1,0 +1,2 @@
+# djnago-ha
+Pre-requesties

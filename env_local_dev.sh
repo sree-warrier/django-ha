@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export DB_NAME="XXXXXXXXX"
+export DB_USER="XXXXXXXXX"
+export DB_PASS="XXXXXXXXX"
+export DB_HOST="XXXXXXXXX"
+export DB_PORT="XXXXXXXXX"
+
+export DJ_USER="XXXXXXXXX"
+export DJ_PASS="XXXXXXXXX"
+export DJ_MAIL="XXXXXXXXX"
