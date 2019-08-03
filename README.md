@@ -1,23 +1,25 @@
-# djnago-ha
+## djnago-ha
 
 Deploy a dockerized Django Application to AWS in a VPC using Terraform, Docker Registry and EC2 Service.
 
-Includes:
 
-VPC
-Internal DNS
-RDS
-EC2 instances
-ELB to distribute requests across the EC2 instances
-Security groups
-uWSGI task definition
+# Includes:
+
+*VPC
+*Internal DNS
+*RDS
+*EC2 instances
+*ELB to distribute requests across the EC2 instances
+*Security groups
+*uWSGI task definition
+*docker & docker-compose
 
 
-#Pre-requesties
+# Pre-requesties
 Terraform should be installed. Get it from https://www.terraform.io/downloads.html to grab the latest version.
 An AWS account http://aws.amazon.com/
 
-#Usage
+# Usage
 
 Building the infra using terraform commands
 
