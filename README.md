@@ -31,7 +31,7 @@ The following steps will walk you through the process:
 
 1. Clone the repo::
 
-      git clone https://github.com/sree-warrier/djnago-ha.git
+      git clone https://github.com/sree-warrier/django-ha.git
 
 2. Following should be created before terraform file execution::
 
