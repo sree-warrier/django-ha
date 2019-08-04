@@ -74,3 +74,5 @@ The following steps will walk you through the process:
       docker-compose up
 
 7. Use the ELB CNAME record to access via browser
+
+## Credits
