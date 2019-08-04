@@ -12,7 +12,6 @@ Includes
 * EC2 instances
 * ELB to distribute requests across the EC2 instances
 * Security groups
-* uWSGI task definition
 * docker & docker-compose
 
 
