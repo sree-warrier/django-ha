@@ -19,7 +19,7 @@ Includes
 Prerequisites
 -------------
 
-* Terraform should be installed. Get it from `https://www.terraform.io/downloads.html` to grab the latest version.
+* Terraform should be installed. Get it from https://www.terraform.io/downloads.html to grab the latest version.
 * An AWS account http://aws.amazon.com/
 
 Usage
@@ -31,20 +31,22 @@ The following steps will walk you through the process:
 
 1. Clone the repo::
 
-      git clone `https://github.com/sree-warrier/django-ha.git`
+      git clone https://github.com/sree-warrier/django-ha.git
 
 2. Following should be created before terraform file execution::
 
     - Create a keypair
     - Use the AMI having docker and docker-compose running
-    - Configure aws credentials (Make sure user should have all access to the aws services)
+    - Configure aws credentials at your local (Make sure user should have required access to the aws services)
 
 3. infra-tf directory conatins the terraform file for infra setup, use the following steps::
 
-      ```cd infra-tf
+      ```
+      cd infra-tf
       terraform init
       terraform plan
-      terraform apply```
+      terraform apply
+      ```
 
 4. Login to the cluster instance using the keys::
 
