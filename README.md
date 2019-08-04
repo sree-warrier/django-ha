@@ -31,7 +31,7 @@ The following steps will walk you through the process:
 
 1. Clone the repo::
 
-      git clone https://github.com/sree-warrier/django-ha.git
+      git clone `https://github.com/sree-warrier/django-ha.git`
 
 2. Following should be created before terraform file execution::
 
@@ -41,16 +41,16 @@ The following steps will walk you through the process:
 
 3. infra-tf directory conatins the terraform file for infra setup, use the following steps::
 
-      cd infra-tf
+      ```cd infra-tf
       terraform init
       terraform plan
-      terraform apply
+      terraform apply```
 
 4. Login to the cluster instance using the keys::
 
 5. Create docker-compose.yml file::
 
-    touch docker-compose.yml
+    ```touch docker-compose.yml```
 
         version: '3.3'
         services:
